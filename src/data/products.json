@@ -1,0 +1,38 @@
+[
+    {
+      "product_id":1,
+      "product_name":"Dai lung",
+      "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
+      "price": 100000
+    },
+    {
+        "product_id":2,
+        "product_name":"Set đồ đi chơi",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp",
+        "price": 120000
+      },
+      {
+        "product_id":3,
+        "product_name":"Giày Nkie hồng",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp",
+        "price": 140000
+      },
+      {
+        "product_id":4,
+        "product_name":"Dai lung",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
+        "price": 150000
+      },
+      {
+        "product_id":5,
+        "product_name":"Giày Nike",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(23).webp",
+        "price": 160000
+      },
+      {
+        "product_id":6,
+        "product_name":"Quần zin",
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(17).webp",
+        "price": 170000
+      }
+]
