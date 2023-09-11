@@ -1,14 +1,25 @@
 import React from "react";
 import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { formatMoney } from "../common/format";
+import { act_add } from "../actions/cartAction";
+import { Link } from "react-router-dom";
+import { notification } from "antd";
 
 export default function ListProduct() {
   const listProduct = useSelector((pro) => pro.listProduct);
-  console.log(listProduct);
+  const dispatch=useDispatch();
+  //ham them san pham vao gio hang
+  const handleAddToCart=(product)=>{
+    dispatch(act_add(product))//gui thong tin product
+    notification.success({
+      message: "Thành công",
+      description: `${product.product_name} đã được thêm vào giỏ hàng`,
+      duration:1.5,
+    })
+  }
   return (
-    <div>
       <>
         <Navbar />
         <section style={{ backgroundColor: "#eee" }}>
@@ -24,8 +35,8 @@ export default function ListProduct() {
                       className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                       data-mdb-ripple-color="light"
                     >
-                      <img src={e.image} className="w-100" />
-                      <a href="#!">
+                      <img src={e.image} width={300} height={300} style={{objectFit:"cover"}} />
+                      <Link to={`/product/${e.product_id}`}>
                         <div className="mask">
                           <div className="d-flex justify-content-start align-items-end h-100">
                             <h5>
@@ -41,14 +52,14 @@ export default function ListProduct() {
                             }}
                           />
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     <div className="card-body">
                       <a href="" className="text-reset">
                         <h5 className="card-title mb-3">{e.product_name}</h5>
                       </a>
                       <h6 className="mb-3">{formatMoney(e.price)}</h6>
-                      <button className="btn btn-primary">Add to cart</button>
+                      <button onClick={()=>handleAddToCart(e)} className="btn btn-primary">Add to cart</button>
                     </div>
                   </div>
                 </div>
@@ -59,6 +70,5 @@ export default function ListProduct() {
         <Footer />
         {/* List product end */}
       </>
-    </div>
   );
 }

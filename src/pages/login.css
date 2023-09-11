@@ -1,0 +1,73 @@
+/* .form-container {
+    border: 1px solid #dadada;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+} */
+/* Define styles for the outer container */
+.minaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f0f0f0;
+    /* Change the background color as needed */
+}
+
+/* Styles for the form container */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.178);
+    width: 400px;
+    height: 400px;
+    border: 1px solid #dadada;
+    /* Adjust the width as needed */
+}
+
+/* Styles for the form heading */
+.form-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Styles for form labels */
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styles for form input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the login button */
+Button {
+    width: 100%;
+    background-color: #007bff;
+    /* Change the button color as needed */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Button:hover {
+    background-color: #0056b3;
+   
+} */

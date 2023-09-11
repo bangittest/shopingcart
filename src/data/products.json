@@ -1,38 +1,44 @@
 [
-    {
-      "product_id":1,
-      "product_name":"Dai lung",
-      "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
-      "price": 100000
-    },
-    {
-        "product_id":2,
-        "product_name":"Set đồ đi chơi",
-        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(4).webp",
-        "price": 120000
-      },
-      {
-        "product_id":3,
-        "product_name":"Giày Nkie hồng",
-        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/shoes%20(3).webp",
-        "price": 140000
-      },
-      {
-        "product_id":4,
-        "product_name":"Dai lung",
-        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
-        "price": 150000
-      },
-      {
-        "product_id":5,
-        "product_name":"Giày Nike",
-        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(23).webp",
-        "price": 160000
-      },
-      {
-        "product_id":6,
-        "product_name":"Quần zin",
-        "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/img%20(17).webp",
-        "price": 170000
-      }
+  {
+    "product_id": 1,
+    "product_name": "Đai lưng",
+    "image": "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp",
+    "price": 50000,
+    "description": "Đai lưng thời trang cho nam và nữ. Sản phẩm này làm từ chất liệu da tổng hợp cao cấp, chất lượng đảm bảo. Thiết kế đơn giản nhưng vô cùng thời trang, phù hợp cho mọi dịp và trang phục. Dễ dàng điều chỉnh độ rộng để phù hợp với bạn. Đai lưng là một phụ kiện không thể thiếu trong tủ đồ của bạn."
+  },
+  {
+    "product_id": 2,
+    "product_name": "Áo thun",
+    "image": "https://tse2.mm.bing.net/th?id=OIP.q-8GNYrQUW1yLQlZb7-zLwHaHa&pid=Api&P=0&h=180",
+    "price": 500000,
+    "description": "Áo thun đơn giản và thoải mái, phù hợp cho cả nam và nữ. Sản phẩm này được làm từ chất liệu cotton mềm mại, giúp bạn cảm thấy thoải mái suốt cả ngày. Thiết kế cổ tròn và tay ngắn, phù hợp cho nhiều hoàn cảnh, từ hàng ngày đến đi dạo và thậm chí là thể thao nhẹ."
+  },
+  {
+    "product_id": 3,
+    "product_name": "Quần jean",
+    "image": "https://tse1.mm.bing.net/th?id=OIP.DgisyfIj4PeIUYzxK419YQHaHa&pid=Api&P=0&h=180",
+    "price": 500000,
+    "description": "Quần jean dáng đẹp và thoải mái, thích hợp cho mọi dịp. Sản phẩm này được làm từ chất liệu denim chất lượng cao, đảm bảo sự thoải mái và bền đẹp. Thiết kế dáng bó sát vừa vặn với cơ thể, làm tôn lên vẻ đẹp của bạn. Quần jean là một lựa chọn hoàn hảo cho mọi tình huống, từ đi làm đến dạo chơi cuối tuần."
+  },
+  {
+    "product_id": 4,
+    "product_name": "Nhẫn kim cương fake",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.dSo79CyEvzKanSYe2cDVggHaHa&pid=Api&P=0&h=180",
+    "price": 5000000,
+    "description": "Nhẫn kim cương giả mạo với thiết kế sang trọng. Sản phẩm này làm từ hợp kim chất lượng cao, với đá kim cương giả mạo lấp lánh. Nhẫn có thiết kế độc đáo và tinh xảo, tạo điểm nhấn cho bất kỳ bộ trang sức nào. Sử dụng nhẫn này để tạo phong cách riêng và thêm sự lấp lánh vào cuộc sống của bạn."
+  },
+  {
+    "product_id": 5,
+    "product_name": "Nhẫn vàng",
+    "image": "https://tse3.mm.bing.net/th?id=OIP.u4fDY3jnGZP47szXTWi_TgHaHa&pid=Api&P=0&h=180",
+    "price": 4500000,
+    "description": "Nhẫn vàng 18K, đẹp và lịch lãm. Sản phẩm này làm từ vàng 18K cao cấp, có thiết kế tinh tế và đẳng cấp. Nhẫn vàng là một món quà tuyệt vời cho người thân yêu hoặc một món trang sức đẹp để tự thưởng cho bản thân. Đây là một biểu tượng của sự sang trọng và lịch lãm."
+  },
+  {
+    "product_id": 6,
+    "product_name": "Máy tính để bàn",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.2-21CBPGYs1MkPpM71vDsQHaFd&pid=Api&P=0&h=180",
+    "price": 20000000,
+    "description": "Máy tính để bàn mạnh mẽ, phục vụ cho công việc và giải trí. Sản phẩm này được trang bị các thành phần cao cấp, bao gồm vi xử lý mạnh mẽ và đồ họa tốt. Điều này giúp bạn xử lý mọi nhiệm vụ từ công việc đến giải trí một cách dễ dàng. Máy tính để bàn là công cụ không thể thiếu cho sự hiệu quả và tiện lợi trong cuộc sống hàng ngày."
+  }
 ]

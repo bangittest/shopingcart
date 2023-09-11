@@ -1,9 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { Link} from "react-router-dom";
+
 
 export default function Navbar() {
+  const carts=useSelector((cart)=>cart.listCart)
   return (
-    <div>
       <>
         {/* Navbar start */}
         {/* Navbar */}
@@ -36,19 +38,19 @@ export default function Navbar() {
               {/* Left links */}
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/">Trang chủ </NavLink>
+                    <Link className="nav-link" to="/">Trang chủ </Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/list-product">Sản phẩm </NavLink>
+                <Link className="nav-link" to="/list-product">Sản phẩm </Link>
                 </li>
                 <li className="nav-item">
                   {/* Icon */}
-                  <a className="text-reset me-3 nav-link" href="#">
+                  <Link className="text-reset me-3 nav-link" to="/cart">
                     <i className="fas fa-shopping-cart" />
                     <span className="badge rounded-pill badge-notification bg-danger">
-                      1
+                      {carts.length}
                     </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               {/* Left links */}
@@ -58,16 +60,16 @@ export default function Navbar() {
             <div className="d-flex align-items-center">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/about">Giới thiệu</NavLink>
+                <Link className="nav-link" to="/about">Giới thiệu</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">Liên hệ</NavLink>
+                <Link className="nav-link" to="/contact">Liên hệ</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/register"> Đăng ký</NavLink>
+                <Link className="nav-link" to="/register"> Đăng ký</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink className="nav-link" to="/login">Đăng nhập</NavLink>
+                <Link className="nav-link" to="/login">Đăng nhập</Link>
                 </li>
               </ul>
               {/* Avatar */}
@@ -116,6 +118,5 @@ export default function Navbar() {
         </nav>
         {/* Navbar end */}
       </>
-    </div>
   );
 }

@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
       <>
         {/* Footer start */}
         {/* Footer */}
@@ -148,6 +147,5 @@ export default function Footer() {
         {/* Footer */}
         {/* Footer end */}
       </>
-    </div>
   );
 }
